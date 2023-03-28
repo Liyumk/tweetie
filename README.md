@@ -1,28 +1,48 @@
-# Create T3 App
+# Tweetie - Twitter Clone
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+T3 is a simple Twitter clone that demonstrates the basic functionalities of Twitter. It allows users to create a tweet, like and unlike a tweet, and list all the tweets.
 
-## What's next? How do I make an app with this?
+## Installation
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+To install T3, you need to follow the below steps:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+1. Clone this repository by running the following command in your terminal:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+2. Navigate to the T3 directory:
 
-## Learn More
+3. Install the dependencies:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+4. Create a `.env` file in the root directory of the project and add the following environment variables:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+DISCORD_CLIENT_ID=<your-discord-client-id>
+DISCORD_CLIENT_SECRET=<your-discord-client-secret>
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+To get the `DISCORD_CLIENT_ID` and `DISCORD_CLIENT_SECRET`, you need to create a new application on the [Discord Developer Portal](https://discord.com/developers/applications). Here's how you can do that:
 
-## How do I deploy this?
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and log in with your Discord account.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+2. Click on the "New Application" button.
+
+3. Enter a name for your application and click "Create".
+
+4. On the left sidebar, click on "OAuth2".
+
+5. Scroll down to the "OAuth2 URL Generator" section and select "http://localhost:3000/login" as the "Redirect URI".
+
+6. Select the "bot" and "applications.commands" scopes.
+
+7. Copy the "Client ID" and paste it as the `DISCORD_CLIENT_ID` value in your `.env` file.
+
+8. Click on the "Generate" button next to "Client Secret" and paste the generated value as the `DISCORD_CLIENT_SECRET` value in your `.env` file.
+
+9. Click on the "Save Changes" button.
+
+## Usage
+
+Once you have installed T3, you can use it by following the below steps:
+
+1. Create a tweet by clicking on the "New Tweet" button.
+
+2. Like or unlike a tweet by clicking on the "Like" button.
+
+3. List all the tweets on the timeline page
