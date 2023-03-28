@@ -12,9 +12,11 @@ To install Tweetie, you need to follow the below steps:
 
 2. Navigate to the tweetie directory:
 
-3. Install the dependencies:
+3. Install the dependencies: `npm install`
 
 4. Create a `.env` file in the root directory of the project and copy the variables in `.env.example`.
+
+5. Start the server: `npm run dev`
 
 
 To get the `DISCORD_CLIENT_ID` and `DISCORD_CLIENT_SECRET`, you need to create a new application on the [Discord Developer Portal](https://discord.com/developers/applications). Here's how you can do that:
