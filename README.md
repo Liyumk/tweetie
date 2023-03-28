@@ -42,8 +42,8 @@ To get the `DISCORD_CLIENT_ID` and `DISCORD_CLIENT_SECRET`, you need to create a
 
 Once you have installed Tweetie, you can use it by following the below steps:
 
-1. Create a tweet by clicking on the "New Tweet" button.
+1. Create a tweet by writing a tweet and clicking on the "Tweet" button.
 
-2. Like or unlike a tweet by clicking on the "Like" button.
+2. Like or unlike a tweet by clicking on the "Heart" icon.
 
-3. List all the tweets on the timeline page
+3. View tweets on the timeline page
